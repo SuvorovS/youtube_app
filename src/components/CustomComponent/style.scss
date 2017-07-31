@@ -1,0 +1,35 @@
+body{
+    // background-color: gray;
+}
+.main{
+    // width: 500px;
+    margin: auto;
+}
+
+.loader {
+    width: 100px;
+    padding-top: 30px;
+    margin: auto;
+}
+.searchPannel{
+    overflow: hidden;
+    background: red;
+    #searchForm{
+        float: left;
+        width: 691px;
+        margin: auto;
+        background-color: pink;
+        .search__input{
+            width: 400px;
+        }
+        .search__btn{
+            color: red;
+        }
+    }
+    .youtubeAuthorize{
+        float: left;
+        .youtubeAuthorize__in{}
+        .youtubeAuthorize__out{}
+    }
+}
+                 
